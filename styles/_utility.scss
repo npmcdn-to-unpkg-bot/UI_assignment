@@ -1,0 +1,145 @@
+/*================================= Container =================================================*/
+.container{
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+/*================================= Content =================================================*/
+.content{
+	margin-top: 120px;
+}
+
+/*================================= Float Classes =================================================*/
+.flt-left {
+	float: left !important;
+} 
+.flt-right {
+	float: right !important;
+}
+
+hr{
+	margin: 0;
+}
+
+//----------------------------------------Margin---------------------------------//
+
+.margin-top-xs{
+  @include margin-all($margin-xs, null, null, null);
+}
+.margin-top-s{
+  @include margin-all($margin-s, null, null, null);
+}
+.margin-top-m{
+  @include margin-all($margin-m, null, null, null);
+}
+.margin-top-l{
+  @include margin-all($margin-l, null, null, null);
+}
+.margin-top-xl{
+  @include margin-all($margin-xl, null, null, null);
+}
+
+.margin-right-xs{
+  @include margin-all(null, $margin-xs, null, null);
+}
+.margin-right-s{
+  @include margin-all(null, $margin-s, null, null);
+}
+.margin-right-m{
+  @include margin-all(null, $margin-m, null, null);
+}
+.margin-right-l{
+  @include margin-all(null, $margin-l, null, null);
+}
+
+.margin-bottom-xs{
+  @include margin-all(null,  null, $margin-xs, null);
+}
+.margin-bottom-s{
+  @include margin-all(null,  null, $margin-s, null);
+}
+.margin-bottom-m{
+  @include margin-all(null,  null, $margin-m, null);
+}
+.margin-bottom-l{
+  @include margin-all(null,  null, $margin-l, null);
+}
+.margin-bottom-xl{
+  @include margin-all(null,  null, $margin-xl, null);
+}
+
+
+.margin-left-xs{
+  @include margin-all(null,  null, null, $margin-xs );
+}
+.margin-left-s{
+  @include margin-all(null,  null, null, $margin-s );
+}
+.margin-left-m{
+  @include margin-all(null,  null, null, $margin-m );
+}
+.margin-left-l{
+  @include margin-all(null,  null, null, $margin-l );
+}
+
+
+//----------------------------------------Padding---------------------------------//
+
+  .padding-top-xs{
+    @include padding-all($margin-xs, null, null, null);
+  }
+  .padding-top-s{
+    @include padding-all($margin-s, null, null, null);
+  }
+  .padding-top-m{
+    @include padding-all($margin-m, null, null, null);
+  }
+  .padding-top-l{
+    @include padding-all($margin-l, null, null, null);
+  }
+  .padding-top-xl{
+    @include padding-all($margin-xl, null, null, null);
+  }
+
+  .padding-right-xs{
+    @include padding-all(null, $margin-xs, null, null);
+  }
+  .padding-right-s{
+    @include padding-all(null, $margin-s, null, null);
+  }
+  .padding-right-m{
+    @include padding-all(null, $margin-m, null, null);
+  }
+  .padding-right-l{
+    @include padding-all(null, $margin-l, null, null);
+  }
+
+  .padding-bottom-xs{
+    @include padding-all(null,  null, $margin-xs, null);
+  }
+  .padding-bottom-s{
+    @include padding-all(null,  null, $margin-s, null);
+  }
+  .padding-bottom-m{
+    @include padding-all(null,  null, $margin-m, null);
+  }
+  .padding-bottom-l{
+    @include padding-all(null,  null, $margin-l, null);
+  }
+  .padding-bottom-xl{
+    @include padding-all(null,  null, $margin-xl, null);
+  }
+
+
+  .padding-left-xs{
+    @include padding-all(null,  null, null, $margin-xs );
+  }
+  .padding-left-s{
+    @include padding-all(null,  null, null, $margin-s );
+  }
+  .padding-left-m{
+    @include padding-all(null,  null, null, $margin-m );
+  }
+  .padding-left-l{
+    @include padding-all(null,  null, null, $margin-l );
+  }
